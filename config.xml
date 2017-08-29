@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+  <widget xmlns = "http://www.w3.org/ns/widgets"
+          xmlns:gap = "http://phonegap.com/ns/1.0"
+          id = "com.phonegap.example"
+          version = "1.0.2">
+
+    <name> Majiyd_profile </name>
+
+    <description>
+      Profile app by Suleiman AbdulMajeed for hotels.ng
+    </description>
+
+    <author href = "http://hng.fun/profile/suleimanmajiyd/index.php"
+            email = "suleimanmajiyd@gmail.com"> Suleiman Majiyd
+    </author>
+
+    <platform name="android" />
+
+    <preference name="permissions" value="none"/>
+    <preference name="orientation" value="default"/>
+    <preference name="fullscreen"  value="true" />
+    <preference name="android-installLocation" value="auto"/>
+    <preference name="KeepRunning" value="false"/>
+
+    <plugin name="cordova-plugin-device" />
+    <plugin name="cordova-plugin-device-motion" />
+    <plugin name="cordova-plugin-device-orientation" />
+
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+
+
+    <icon src = "./res/android/mipmap-ldpi/ic_launcher.png" gap:platform="android" gap:qualifier="ldpi"/>
+    <icon src = "./res/android/mipmap-hdpi/ic_launcher.png" gap:platform="android" gap:qualifier="hdpi"/>
+    <icon src = "./res/android/mipmap-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi"/>
+    <icon src = "./res/android/mipmap-xhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xhdpi"/>
+    <icon src = "./res/android/mipmap-xxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxhdpi"/>
+    <icon src = "./res/android/mipmap-xxxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxxhdpi"/>
+  </widget>
