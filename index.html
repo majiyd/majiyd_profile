@@ -27,11 +27,15 @@
       </div>
       <br><br>
       <div class="send">
-        <form action="mailto: suleimanmajiyd@gmail.com?subject=subject&body=message" method="post" >
+        <form action="https://script.google.com/macros/s/AKfycbyarEGN1hQGoVHZzvV1df0-IFeQHsEb9pMJBZep2OZi13VO8N8/exec" method="POST" >
           <p style="text-align: center">send me a mail: </p>
         	<div>
           <label >Name:</label>
           <input type="text" class="name" name="subject">
+          </div>
+          <div>
+          <label >email</label>
+          <input type="text" class="email" name="email">
           </div>
       <div>
         <label >Message:</label>
@@ -45,13 +49,19 @@
 
 
       </div>
+      <div style="display:none;" id="thankyou_message">
+        <h2>Thank you</h2>
+
+      </div>
 
 
     </div>
     <div class="footer">
       © 2017 Majiyd suleimanmajiyd@gmail.com
     </div>
-    <a href="http://hng.fun/index.php"><h4> or call me: +2348105289915</h4></a>
+    <h4> <a href="http://hng.fun/index.php">or call me: +2348105289915</a></h4>
+    <script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
   </body>
 
 </html>
