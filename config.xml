@@ -20,15 +20,19 @@
     <preference name="orientation" value="default"/>
     <preference name="fullscreen"  value="true" />
     <preference name="android-installLocation" value="auto"/>
-    <preference name="KeepRunning" value="false"/>
+
 
     <plugin name="cordova-plugin-device" spec="1.1.6" />
     <plugin name="cordova-plugin-device-motion" spec="1.2.5" />
     <plugin name="cordova-plugin-device-orientation" spec="1.0.7" />
     <plugin name="cordova-plugin-inappbrowser" spec="1.7.1" />
+    <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+    <access origin="*" browserOnly="true" />
 
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+
+    <access origin=".*" subdomains="true" />
 
 
 
