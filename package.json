@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/majiyd/majiyd_profile/issues"
   },
-  "homepage": "https://github.com/majiyd/majiyd_profile#readme"
+  "homepage": "https://github.com/majiyd/majiyd_profile#readme",
+  "dependencies": {
+    "cordova-plugin-email": "^1.2.6"
+  }
 }
